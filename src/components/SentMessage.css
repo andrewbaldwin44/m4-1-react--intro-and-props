@@ -1,0 +1,7 @@
+.sent-text {
+  margin-left: auto;
+}
+.chat-body.sent {
+  background-color: #1185f7;
+  color: white;
+}

@@ -21,16 +21,6 @@
   margin-top: 4px;
   border-radius: 5px;
 }
-.chat-body.received {
-  background-color: #e9e9eb;
-}
-.sent-text {
-  margin-left: auto;
-}
-.chat-body.sent {
-  background-color: #1185f7;
-  color: white;
-}
 .user-avatar {
   height: 50px;
   width: 50px;
