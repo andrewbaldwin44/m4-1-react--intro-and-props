@@ -16,7 +16,8 @@
   align-items: flex-end;
 }
 .chat-tip {
-  margin: 0 -6px;
+  margin-left: -6px;
+  margin-right: -3px;
 }
 .chat-body {
   display: flex;
