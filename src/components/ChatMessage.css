@@ -3,7 +3,7 @@
 .chat-message {
   display: flex;
   width: 30%;
-  margin: 50px 30px;
+  margin: 30px 30px;
 }
 .chat-text {
   display: flex;

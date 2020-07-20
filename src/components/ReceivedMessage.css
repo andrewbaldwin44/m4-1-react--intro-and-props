@@ -1,5 +1,6 @@
 .user-name{
   color: gray;
+  margin-left: 10px;
 }
 .chat-body.received {
   background-color: #e9e9eb;

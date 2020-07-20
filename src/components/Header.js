@@ -5,9 +5,11 @@ import './Header.css';
 const Header = ({ participants, currentUser }) => {
   return (
     <header>
-      {participants.filter(participant => participant !== currentUser)
-                   .map(participant => <img className='participants' src={participant.avatar}/>)
-      }
+      <div className='participants-container'>
+        {participants.filter(participant => participant !== currentUser)
+          .map(participant => <img className='participants' src={participant.avatar}/>)
+        }
+      </div>
     </header>
   );
 };

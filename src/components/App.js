@@ -16,7 +16,7 @@ const App = (props) => {
       <ChatStream
         messages={props.conversation.messages}
         currentUser={props.currentUser}
-      />
+        />
       <Footer />
     </div>
   );

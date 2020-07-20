@@ -4,16 +4,14 @@ header {
   height: 100px;
   padding-left: 30px;
   background-color: #f9f9f9;
-  /*
-    Protip: layering multiple box shadows can create a
-    richer shadow effect than just using a single one.
-  */
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15),
     0px 1px 0.5px rgba(0, 0, 0, 0.075);
 }
+.participants-container {
+  margin-left: 12%;
+}
 .participants {
-  width: 80px;
-  height: 80px;
-  margin-right: 10px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
 }
