@@ -7,7 +7,14 @@ const Header = ({ participants, currentUser }) => {
     <header>
       <div className='participants-container'>
         {participants.filter(participant => participant !== currentUser)
-          .map(participant => <img className='participants' src={participant.avatar}/>)
+          .map(participant => {
+            return (
+              <div className='participant-profile'>
+                <img className='participant' src={participant.avatar}/>
+                <span className='participant-name'>{participant.username}</span>
+              </div>
+            )
+          })
         }
       </div>
     </header>
