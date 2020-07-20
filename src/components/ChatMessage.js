@@ -8,7 +8,7 @@ const ChatMessage = ({user, body, messageType}) => {
     : <ReceivedMessage user={user} body={body} />;
 };
 
-const SentMessage = ({ body }) => {
+const SentMessage = ({body}) => {
   return (
     <div className='chat-message'>
       <div className='chat-text sent-text'>
